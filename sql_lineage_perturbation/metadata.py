@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Mesurer les lignes sources dont dépend réellement un résultat SQLite', 'en': 'Measure source rows on which a SQLite result actually depends', 'es': 'Medir las filas fuente de las que depende un resultado SQLite'}

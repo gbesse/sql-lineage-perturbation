@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-lineage-perturbation"
+version = "0.1.0a1"
+description = "FR: Mesurer les lignes sources dont dépend réellement un résultat SQLite | EN: Measure source rows on which a SQLite result actually depends | ES: Medir las filas fuente de las que depende un resultado SQLite"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sql-lineage-perturbation = "sql_lineage_perturbation.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sql_lineage_perturbation*"]

@@ -1,0 +1,29 @@
+{
+  "tables": {
+    "sales": {
+      "columns": [
+        "id",
+        "region",
+        "cents"
+      ],
+      "rows": [
+        [
+          "s1",
+          "FR",
+          100
+        ],
+        [
+          "s2",
+          "FR",
+          200
+        ],
+        [
+          "s3",
+          "ES",
+          999
+        ]
+      ]
+    }
+  },
+  "query": "SELECT sum(cents) FROM sales WHERE region='FR'"
+}
